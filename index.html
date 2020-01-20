@@ -10,10 +10,26 @@
 <body>
 <div class="wrap">
     <div class="wrapInfo">
-        <span id="target">Достигни 10 уровня замка и получи 200 голды</span>
-        <span id="lvl">0</span>
+        <div>
+            <span>Цель: </span>
+            <span id="target">Достигни 10 уровня замка и получи 200 голды</span>
+        </div>
+        <div>
+            <span>Уровень: </span>
+            <span id="level">0</span>
+        </div>
+        <div>
+            <span>Gold: </span>
+            <span id="golda">0</span>
+        </div>
+        <div>
+            <button id="update">Прокачать замок за 200 Gold</button>
+        </div>
     </div>
-    <img src="img/1(2).png" alt="Castle" id="castle">
+    <div class="wrapCastle">
+        <img src="img/2.png" alt="Castle" id="castle" class="castle">
+        <img src="img/1.png" alt="Castle" id="castleUP" class="castleUP" style="display: none;">
+    </div>
 </div>
 <script src="js/index.js"></script>
 </body>
